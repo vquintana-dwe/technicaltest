@@ -30,9 +30,9 @@ namespace BusinessLogicLayer.Utils
             }
         }
 
-        public string[] ReadCsv(string filePath)
+        public List<string[]> ReadCsv(string filePath)
         {
-            var results = new List<string>();
+            var results = new List<string[]>();
 
             using (var reader = new StreamReader(filePath))
             {
@@ -40,16 +40,17 @@ namespace BusinessLogicLayer.Utils
                 {
                     var line = reader.ReadLine();
                     var values = line.Split(',');
-
+                    var lineContent = new List<string>();
                     for (var index = 0; index < values.Length; index++)
                     {
-                        var item = values[index];
-                        results.Add(item);
+                        lineContent.Add(values[index]);
                     }
+
+                    results.Add(lineContent.ToArray());
                 }
             }
 
-            return results.ToArray();
+            return results;
         }
     }
 }
