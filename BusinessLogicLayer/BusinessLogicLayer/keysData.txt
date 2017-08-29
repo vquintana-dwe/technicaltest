@@ -1,0 +1,12 @@
+﻿550, Unit 001, Borrowed by User 001, Return date 29/09/2017
+551, Unit 002, Borrowed by User 002, Return date 05/05/2017
+552, Unit 003, Borrowed by User 003, Return date 07/08/2017
+553, Unit 004, Borrowed by User 004, Return date 11/09/2017
+554, Unit 005, Borrowed by User 005, Return date 31/10/2017
+554, Unit 005, Borrowed by User 006, Return date 19/11/2017
+551, Unit 002, Borrowed by User 001, Return date 22/09/2017
+550, Unit 001, Borrowed by User 007, Return date 09/01/2017
+560, Unit 006, Borrowed by User 008, Return date 21/02/2017
+590, Unit 010, Borrowed by User 009, Return date 23/06/2017
+1000, Unit 011, Borrowed by User 010, Return date 30/04/2017
+1001, Unit 021, Borrowed by User 011, Return date 18/05/2017
