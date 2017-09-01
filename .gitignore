@@ -15,4 +15,4 @@
 *.sbr
 obj/
 [Rr]elease*/
-_ReSharper*/
+_ReSharper*/*.ide
